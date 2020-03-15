@@ -2,7 +2,9 @@ import React from "react";
 
 const Counter = ({onDecrement, onIncrement, count}) => (
     <div>
+  
         <p> count example </p>
+
         <button onClick={onDecrement}>
             -
         </button>
